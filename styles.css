@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+#image {
+    width: 400px;
+    height: 250px;
+    margin: 0 auto 20px auto;
+    border: 2px solid black;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: background-image 0.3s ease;
+}
+
+.gallery img {
+    width: 150px;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid #333;
+}
